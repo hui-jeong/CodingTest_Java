@@ -11,5 +11,16 @@ class Solution {
             }
         }
         return sb.toString();
+//         Map<Character,Character> winRsp = new HashMap<>();
+//         winRsp.put('2','0');
+//         winRsp.put('0','5');
+//         winRsp.put('5','2');
+        
+//         StringBuilder sb = new StringBuilder();
+//         for(int i = 0; i < rsp.length(); i++){
+//             char c = rsp.charAt(i);
+//             sb.append(winRsp.get(c));
+//         }
+//         return sb.toString();
     }
 }
